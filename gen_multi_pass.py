@@ -17,7 +17,7 @@ from sys import argv
 
 def make_pass():
     spreadsheet = argv[1]                                                               # get our spreadsheet file from commandline argunemt
-    spchar = ['!', '@', '#', '$', '%', '^', '&', '*']                                  # an array of special characters
+    spchar = ['!', '@', '#', '$', '%', '^', '&', '*', '/', '\\', '<', '>', '(', ')', '+', '_', '-', '=']                                   # an array of special characters
                                                        
     
     wb = openpyxl.load_workbook(spreadsheet)   # open the file                          
