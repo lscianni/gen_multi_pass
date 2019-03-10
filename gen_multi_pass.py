@@ -6,7 +6,8 @@
   and one integer
   11/27/2017
   Louis Scianni
-
+ 
+ released under GLP-v2
 """
 
 import openpyxl
